@@ -5,7 +5,7 @@ class SingleLinkedList
 	private:
 		IntElement* _pHeadElement;
 
-		IntElement* _createElement(int iaValue);		
+		IntElement* _createElement(int iaValue);
 
 	public:
 		SingleLinkedList();
@@ -17,6 +17,6 @@ class SingleLinkedList
 		void AddElement(int iaValue);
 
 		void AddElementAtPosition(int iaValue, int iaPosition);
-				
-		void DisplayElements();	
+
+		void DisplayElements();
 };
