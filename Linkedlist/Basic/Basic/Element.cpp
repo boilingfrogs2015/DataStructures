@@ -8,6 +8,11 @@ IntElement::IntElement(int aValue)
 
 IntElement::~IntElement()
 {
+	if ( _next != NULL)
+	{
+		delete _next;
+		_next = NULL;
+	}		
 }
 
 IntElement* IntElement::getNextElement() const

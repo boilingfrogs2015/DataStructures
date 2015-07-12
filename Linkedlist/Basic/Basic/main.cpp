@@ -12,8 +12,4 @@ void main()
 	objSingleLinkedList.DisplayElements();
 
 	cout << endl << endl;
-
-//	objSingleLinkedList.ReverseLinkedList();
-	//objSingleLinkedList.ReverseLinkedListOptimized();
-	//objSingleLinkedList.DisplayElements();
 }
